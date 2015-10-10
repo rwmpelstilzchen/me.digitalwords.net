@@ -1,0 +1,77 @@
+body {
+	width: 64ch;
+	max-width: 90%;
+	margin-top: 3ex;
+	margin-bottom: 9ex;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 100%;
+	line-height: 1.5;
+	font-family: 'Droid Sans', sans-serif;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: #7f54cc;
+}
+
+h1 {
+	text-align: center;
+	color: #7f54cc;
+	font-weight: normal;
+}
+
+h2 {
+	color: #7f54cc;
+	border-bottom: thin solid #b298e0;
+	font-weight: normal;
+	margin-top: 1.5em;
+}
+
+.meta {
+	text-align: center;
+	/*
+	width: 55ch;
+	max-width: 70%;
+	*/
+	font-size: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color: #727272;
+}
+
+.lang {
+	font-variant: small-caps;
+	color: #727272;
+}
+
+.pix {
+	float: left;
+	width: 72px;
+	max-width: 20%;
+}
+
+.pix img {
+	max-width: 100%;
+}
+
+.desc {
+	overflow: auto;
+}
+
+.site {
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.sitelist {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sitelist li {
+	margin-bottom: 2ex;
+}
